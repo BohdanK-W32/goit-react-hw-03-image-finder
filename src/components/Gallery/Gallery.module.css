@@ -1,0 +1,10 @@
+/* Стили компонента Gallery */
+.gallery {
+  display: grid;
+  max-width: 1440px;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-gap: 16px;
+  margin: 40px auto;
+  padding: 0;
+  list-style: none;
+}
